@@ -1,20 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:todo/homepage.dart';
 
-void main(){
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget{
-  MyApp({super.key}){
+class HomePage extends StatelessWidget{
+  HomePage({super.key}){
     debugPrint("Todo App created");
   }
 
   @override
   Widget build(BuildContext context){
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Scaffold(),
     );
   }
 }
