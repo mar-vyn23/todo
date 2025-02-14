@@ -31,9 +31,7 @@ class TodoTile extends StatelessWidget {
             //task name
             Text(taskName),
           ],
-        ),
-        
-          
+        ),  
       ),
     );
   }
