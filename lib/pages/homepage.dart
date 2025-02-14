@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo/utils/todo_tile.dart';
 
 class HomePage extends StatelessWidget{
   HomePage({super.key}){
@@ -17,6 +18,15 @@ class HomePage extends StatelessWidget{
           elevation: 0,
         ),
         backgroundColor: const Color.fromARGB(255, 236, 226, 136),
+        body: ListView(
+          children: [
+            TodoTile(
+              taskName: "Finish ToDo app",
+              taskCompleted: true,
+              onChanged: (p0){},
+            ),
+          ],
+        ),
       ),
     );
   }
