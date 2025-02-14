@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
           backgroundColor: Colors.yellow,
           title: const Text("To Do"),
           centerTitle: true,
-          elevation: 0,
+          elevation: 1,
         ),
         backgroundColor: const Color.fromARGB(255, 236, 226, 136),
         body: ListView.builder(
