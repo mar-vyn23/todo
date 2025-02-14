@@ -15,6 +15,7 @@ class _HomePageState extends State<HomePage> {
   List toDolist = [
     ["Code", false],
     ["Study", false],
+    ["Smoke", true],
   ];
 
   void checkBoxchanged(bool? value, int index){
