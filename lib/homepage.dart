@@ -7,9 +7,17 @@ class HomePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.yellow,
+          title: const Text("To Do"),
+          centerTitle: true,
+          elevation: 0,
+        ),
+        backgroundColor: const Color.fromARGB(255, 236, 226, 136),
+      ),
     );
   }
 }
